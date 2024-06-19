@@ -79,12 +79,10 @@ sections:
       view: article-grid
   - block: awards
     content:
-      title: Awards
+      title: Certifications
       username: admin
-  - block: languages
-    content:
-      title: Languages
-      username: admin
-  
-    
+  # - block: languages
+  #   content:
+  #     title: Languages
+  #     username: admin    
 ---

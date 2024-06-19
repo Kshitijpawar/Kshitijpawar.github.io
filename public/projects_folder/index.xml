@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects_folders | Résumé Hugo Theme</title>
+    <title>Projects_folders | Kshitij Pawar Portfolio</title>
     <link>http://localhost:1313/projects_folder/</link>
       <atom:link href="http://localhost:1313/projects_folder/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects_folders</description>
@@ -297,10 +297,10 @@ Object Detection API is used to extract the bounding box for license plate&lt;/p
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;car image&#34; srcset=&#34;
-               /projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_83ef4f16d4b6030b56ddc612f0b36ebc.webp 400w,
-               /projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_f4d238cf875e45754ab4faf090e16fc6.webp 760w,
+               /projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_9009a02a97ed94be4bb28b18cd5e79c9.webp 400w,
+               /projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_05c82094a2920c3ef2f27830d41f6459.webp 760w,
                /projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_83ef4f16d4b6030b56ddc612f0b36ebc.webp&#34;
+               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_9009a02a97ed94be4bb28b18cd5e79c9.webp&#34;
                width=&#34;760&#34;
                height=&#34;475&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -325,10 +325,10 @@ Object Detection API is used to extract the bounding box for license plate&lt;/p
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;output&#34; srcset=&#34;
-               /projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_dea136628681d6959459248b7fa8915f.webp 400w,
-               /projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_f9b279579a5ff59236f6150e09fa36af.webp 760w,
+               /projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_cc11aabb03272b93397c8ec0ca4d5975.webp 400w,
+               /projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_9b45a58c2ddfe6ef1aefa09eb1be0f42.webp 760w,
                /projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_dea136628681d6959459248b7fa8915f.webp&#34;
+               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_cc11aabb03272b93397c8ec0ca4d5975.webp&#34;
                width=&#34;309&#34;
                height=&#34;121&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -353,10 +353,10 @@ Object Detection API is used to extract the bounding box for license plate&lt;/p
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ocr&#34; srcset=&#34;
-               /projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_2407d73127a5777c43780f5ca25fdda4.webp 400w,
-               /projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_0fef8da3c9d7c49925a025a393c6ab4c.webp 760w,
+               /projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_735e4c5a972044a08375788f2985e277.webp 400w,
+               /projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_368b88f70e96121ab6eafe3b5021a50c.webp 760w,
                /projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_2407d73127a5777c43780f5ca25fdda4.webp&#34;
+               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_735e4c5a972044a08375788f2985e277.webp&#34;
                width=&#34;760&#34;
                height=&#34;381&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
