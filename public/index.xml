@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home | Résumé Hugo Theme</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Home</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <title>Home</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title>Sensor Data Visualization and Streaming</title>
+      <link>http://localhost:1313/projects_folder/get_started/</link>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_folder/get_started/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Kshitijpawar/Sensors-App&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Link&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#website-hosted-on-firebase&#34;&gt;Website hosted on Firebase&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;Motivation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#flutter-mobile-app&#34;&gt;Flutter Mobile App&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-and-setup&#34;&gt;Installation and Setup&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#configuration&#34;&gt;Configuration&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#react-js-web-app&#34;&gt;React JS Web App&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#features-1&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-and-setup-1&#34;&gt;Installation and Setup&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#configuration-1&#34;&gt;Configuration&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#future-to-dos&#34;&gt;Future To-Dos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#contact&#34;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h1 id=&#34;sensor-data-visualization-and-streaming&#34;&gt;Sensor Data Visualization and Streaming&lt;/h1&gt;
+&lt;h2 id=&#34;website-hosted-on-firebase&#34;&gt;Website hosted on Firebase&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://sensorappdb.web.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sensorappdb.web.app/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;A data collection application which can be used to record sensors and GPS onboard smartphones for smart visualization and detection of anomalies or events&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project comprises two applications:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Flutter Mobile App&lt;/strong&gt;: A mobile application built using Flutter to monitor and record sensor data (accelerometer and gyroscope) and stream it to Firebase Realtime Database.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;React JS Web App&lt;/strong&gt;: A web application built using React JS to view and chart the recorded sensor data from Firebase Realtime Database.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;flutter-mobile-app&#34;&gt;Flutter Mobile App&lt;/h2&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sensor Data Visualization&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One screen displays the accelerometer and gyroscope data.&lt;/li&gt;
+&lt;li&gt;Data is charted using a custom painter class for dynamic visualization.
+&lt;!-- ![Mobile App Sensor Data Visualization](git_images\Screenshot_20240509-132226.png) --&gt;
+&lt;p align= &#34;left&#34;&gt;
+  &lt;img src=&#34;git_images\Screenshot_20240611-215230.png&#34; alt=&#34;Custom Painter class for viz.&#34; width=&#34;300&#34;&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data Recording and Streaming&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Records sensor values (accelerometer and gyroscope).&lt;/li&gt;
+&lt;li&gt;Streams the recorded data to Firebase Realtime Database in real-time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;left&#34;&gt;
+  &lt;img src=&#34;git_images\Screenshot_20240611-215248.png&#34; alt=&#34;Dialog box for streaming&#34; width=&#34;300&#34;&gt;
+  &lt;img src=&#34;git_images\Screenshot_20240611-215254.png&#34; alt=&#34;Statusfor streaming&#34; width=&#34;300&#34;&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;images&#34;&gt;Images&lt;/h3&gt;
+&lt;h3 id=&#34;installation-and-setup&#34;&gt;Installation and Setup&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clone the Repository&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/Kshitijpawar/Sensors-App.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; Sensors-App/flutter-sensors-app
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Install Dependencies&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flutter pub get
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Run the App&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flutter run
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensure you have the correct Firebase configuration in &lt;code&gt;lib/firebase_options.dart&lt;/code&gt;. You can create one on Firebase console for free.&lt;/li&gt;
+&lt;li&gt;Update your &lt;code&gt;pubspec.yaml&lt;/code&gt; file with necessary dependencies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;react-js-web-app&#34;&gt;React JS Web App&lt;/h2&gt;
+&lt;h3 id=&#34;features-1&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Visualization&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Reads accelerometer and gyroscope data from Firebase Realtime Database.&lt;/li&gt;
+&lt;li&gt;Uses Chart.js to visualize the recorded sensor data in real-time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;git_images\Screenshot 2024-06-11 220038.png&#34; alt=&#34;React webapp homepage&#34; width=&#34;900&#34;&gt;
+  &lt;img src=&#34;git_images\Screenshot 2024-06-11 220005.png&#34; alt=&#34;Charts page&#34; width=&#34;900&#34;&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation-and-setup-1&#34;&gt;Installation and Setup&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clone the Repository&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/Kshitijpawar/Sensors-App.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; Sensors-App/react-webapp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Install Dependencies&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Run the App&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm start
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;configuration-1&#34;&gt;Configuration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensure you have the correct Firebase configuration in &lt;code&gt;src/FirebaseSettings.js&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;future-to-dos&#34;&gt;Future To-Dos&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enhance Mobile App&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add more sensors and data visualization screens.&lt;/li&gt;
+&lt;li&gt;Implement offline data storage and sync when the network is available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Improve Web App&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add user authentication for secure data access.&lt;/li&gt;
+&lt;li&gt;Implement data export functionality (CSV, Excel).&lt;/li&gt;
+&lt;li&gt;Enhance data visualization with more chart options and customization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;General Improvements&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimize data streaming and database interactions.&lt;/li&gt;
+&lt;li&gt;Improve the user interface and user experience across both apps.&lt;/li&gt;
+&lt;li&gt;Conduct extensive testing and bug fixing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+&lt;p&gt;Contributions are welcome! Please fork this repository and submit pull requests.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;!-- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. --&gt;
+&lt;p&gt;See the &lt;a href=&#34;LICENSE&#34;&gt;LICENSE&lt;/a&gt; file for details.&lt;/p&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;For any queries or suggestions, please contact &lt;a href=&#34;mailto:your-email@example.com&#34;&gt;kshitijvijay271199@gmail.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flutter Control App</title>
+      <link>http://localhost:1313/projects_folder/control_app/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_folder/control_app/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Kshitijpawar/Control_collectibles_app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Link&lt;/a&gt;
+
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#data-scraped-using-python-scrapy-library-and-stored-in-firebase-realtime-database-flutter-frontend-for-mobile-application&#34;&gt;Data scraped using Python Scrapy library and stored in Firebase Realtime database. Flutter frontend for mobile application&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#folder-structure&#34;&gt;Folder structure&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#setup-for-mobile-app&#34;&gt;Setup for mobile app&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#to-do&#34;&gt;To Do&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;mobile-app-to-view-collectibles-from-2019-video-game-controlhttpsenwikipediaorgwikicontrol_video_game-by-remedy-entertainment&#34;&gt;Mobile App to view collectibles from 2019 video game &lt;a href=&#34;https://en.wikipedia.org/wiki/Control_%28video_game%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Control&lt;/a&gt; by Remedy Entertainment.&lt;/h1&gt;
+&lt;h2 id=&#34;data-scraped-using-python-scrapy-library-and-stored-in-firebase-realtime-database-flutter-frontend-for-mobile-application&#34;&gt;Data scraped using Python Scrapy library and stored in Firebase Realtime database. Flutter frontend for mobile application&lt;/h2&gt;
+&lt;h2 id=&#34;folder-structure&#34;&gt;Folder structure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;controlscrape: Scrapy code&lt;/li&gt;
+&lt;li&gt;control_lore: Flutter application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setup-for-mobile-app&#34;&gt;Setup for mobile app&lt;/h2&gt;
+&lt;p&gt;Prerequistes - Flutter SDK. &lt;a href=&#34;https://docs.flutter.dev/get-started/install&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Install&lt;/a&gt;&lt;br&gt;
+Clone the offline_json branch and cd into control_lore folder to run the following commands.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;flutter pub get 
+flutter run
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;to-do&#34;&gt;To Do&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scrape multimedia youtube links and add to mobile app as url redirect button&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Add local json load and parsing instead of firebase dependency.&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;QA System hosted on server(Provided I get resources to host the models lol)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;img src=&#34;images/Screenshot_1678166339.png&#34; alt=&#34;screenshot 1&#34; height=&#34;500&#34;&gt;       
+&lt;img src=&#34;images/Screenshot_1678166348.png&#34; alt=&#34;screenshot 2&#34; height=&#34;500&#34;&gt;       
+&lt;img src=&#34;images/Screenshot_1678166356.png&#34; alt=&#34;screenshot 3&#34; height=&#34;500&#34;&gt;       
+&lt;img src=&#34;images/Screenshot_1678166367.png&#34; alt=&#34;screenshot 4&#34; height=&#34;500&#34;&gt;       
+&lt;img src=&#34;images/Screenshot_1678166382.png&#34; alt=&#34;screenshot 5&#34; height=&#34;500&#34;&gt;       &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient pothole detection using smartphone sensors</title>
+      <link>http://localhost:1313/publications/conference_paper/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/conference_paper/</guid>
+      <description>&lt;!-- 
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Efficient pothole detection using smartphone sensors</title>
+      <link>http://localhost:1313/publications_folder/project_management/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications_folder/project_management/</guid>
+      <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
+&lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
+&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
+&lt;pre&gt;- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/div&gt;
+&lt;h2 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h2&gt;
+&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>License Plate Detection and Recognition</title>
+      <link>http://localhost:1313/projects_folder/license_plate_recognition/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_folder/license_plate_recognition/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Kshitijpawar/License_Plate_Detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Link&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#table-of-contents&#34;&gt;Table of contents&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#general-info&#34;&gt;General info&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#technologies&#34;&gt;Technologies&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#contact&#34;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h1 id=&#34;license-plate-detection-and-ocroptical-character-recognition&#34;&gt;License Plate Detection and OCR(Optical Character Recognition)&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Using Machine Learning and AI to detect and identify license plate number&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#general-info&#34;&gt;General info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#technologies&#34;&gt;Technologies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contact&#34;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;general-info&#34;&gt;General info&lt;/h2&gt;
+&lt;p&gt;By employing Tensorflow, Google Colab and Tesseract license plate number can be extracted from the input image in text string format.&lt;br&gt;
+Object Detection API is used to extract the bounding box for license plate&lt;/p&gt;
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;car image&#34; srcset=&#34;
+               /projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_83ef4f16d4b6030b56ddc612f0b36ebc.webp 400w,
+               /projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_f4d238cf875e45754ab4faf090e16fc6.webp 760w,
+               /projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/image_hudc021870411499f934ee9b1f87aa6559_417398_83ef4f16d4b6030b56ddc612f0b36ebc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;475&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;output&#34; srcset=&#34;
+               /projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_dea136628681d6959459248b7fa8915f.webp 400w,
+               /projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_f9b279579a5ff59236f6150e09fa36af.webp 760w,
+               /projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/plate_hue625458d4ca8f6b67a9d189a2f8113e2_29075_dea136628681d6959459248b7fa8915f.webp&#34;
+               width=&#34;309&#34;
+               height=&#34;121&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ocr&#34; srcset=&#34;
+               /projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_2407d73127a5777c43780f5ca25fdda4.webp 400w,
+               /projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_0fef8da3c9d7c49925a025a393c6ab4c.webp 760w,
+               /projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/projects_folder/license_plate_recognition/document/ocr_new_hue9e4ca15d6edbcfd5991467d46116afa_60079_2407d73127a5777c43780f5ca25fdda4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;381&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;technologies&#34;&gt;Technologies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tensorflow(Object Detection API)&lt;/li&gt;
+&lt;li&gt;Google Colab(Hardware purpose Tesla K80 GPU)&lt;/li&gt;
+&lt;li&gt;Tesseract(OCR)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/drive/1B-u6-uj5LFhqeCelBxuN-auImiHqKU_R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;License Plate Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/drive/1DlpP0p9IWJkVd3bmsgSnI6KjUCbhIT8L&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;License Plate Identification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/Kshitijpawar/License_Plate_Detection/blob/master/Testing_the_model.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Some more Examples to test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;Created by &lt;a href=&#34;https://www.linkedin.com/in/kshitij-pawar-39a771185/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kshitij Pawar&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

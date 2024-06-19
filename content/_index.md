@@ -37,6 +37,46 @@ sections:
     content:
       title: Skills & Hobbies
       username: admin
+  - block: collection
+    content:
+      title: Publications
+      text: ""
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation
+  - block: collection
+    id: projects
+    content:
+      title: Projects
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        # The folders to display content from
+        folders:
+          - projects_folder
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
+      offset: 0
+      # Field to sort by, such as Date or Title
+      sort_by: 'Date'
+      sort_ascending: false
+    design:
+      # Choose a listing view
+      view: article-grid
   - block: awards
     content:
       title: Awards
@@ -45,4 +85,6 @@ sections:
     content:
       title: Languages
       username: admin
+  
+    
 ---
