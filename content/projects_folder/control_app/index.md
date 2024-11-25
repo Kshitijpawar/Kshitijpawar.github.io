@@ -1,6 +1,6 @@
 ---
 title: Flutter Control App
-summary: Flutter mobile app to view collectibles from Control video game
+summary: Flutter mobile app to view collectibles and question-answering for Control video game
 date: 2023-03-07
 
 # Featured image

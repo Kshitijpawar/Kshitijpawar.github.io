@@ -44,6 +44,14 @@ education:
     institution: University of Southern California
     date_start: 2023-08-26
     date_end: 2025-05-16
+    summary: |
+      GPA: 3.7/4.0
+      
+      Courses included:
+      - CSCI-570 Analysis of Algorithms
+      - CSCI-585 Database Systems
+      - CSCI-535 Multimodal Probabilistic Learning of Human Communication
+      - CSCI-566 Deep Learning and Its Applications
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     # button:
@@ -72,6 +80,19 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
+  - position: Graduate Research Assistant
+    company_name: University of Southern California Information Sciences Institute
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - Design and fine-tune multimodal deep learning models, analyze video and text data, leverage annotated dataset for identifying harmful content in automated content moderation for TikTok and Reddit
+      - Manage analysis of over 35 million tweets to forecast community reactions to major sociopolitical events, enhancing fine-tuned LLaMA-3 models for charting change in public sentiment
+      - Analyze public opinion shifts across social media platforms and identify significant sentiment changes like a 22% increase in vaccine mandate support and a 25% rise in opposition to Roe vs. Wade from Twitter data
+      - Deploy fine-tuned GPT-based models on HuggingFace Hub and as Docker container, enabling a 30% reduction in model access time and seamless usage for collaborating teams at Northeastern University
+       
   - position: Machine Learning Engineer
     company_name: Tata Consultancy Service Research and Innovation Labs
     company_url: ''
